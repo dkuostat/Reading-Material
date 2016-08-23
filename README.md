@@ -7,4 +7,4 @@
 
 ## ```apply``` functions
 
-- Intro: https://www.r-bloggers.com/using-apply-sapply-lapply-in-r/
+- Intro: http://stackoverflow.com/questions/3505701/r-grouping-functions-sapply-vs-lapply-vs-apply-vs-tapply-vs-by-vs-aggrega
