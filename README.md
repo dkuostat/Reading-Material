@@ -13,6 +13,6 @@
 
 - Bayesian TS: http://www.demographic-research.org/volumes/vol29/43/29-43.pdf
 
-## Factor Analysis
+## Factor analysis
 
 - Intro with R: http://www.statpower.net/Content/312/R%20Stuff/Exploratory%20Factor%20Analysis%20with%20R.pdf
