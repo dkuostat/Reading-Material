@@ -1,0 +1,34 @@
+https://einstein.ai/research/your-tldr-by-an-ai-a-deep-reinforced-model-for-abstractive-summarization
+
+Extractive vs Abstractive Summarization
+- Extractive: copy and paste
+- Abstractive: self-generated
+- Abstractive can be more powerful in theory, but it's also easy to make mistakes
+
+Encoder-Decoder RNN (Seq2Seq)
+- RNN: DL models that can operate with variable-length sequences (both input/output)
+- Encoder: for each new element, the network produces a new hidden state based on previous element + hidden state
+- Decoder: Output generated in a similar manner where each output element depends on previous element + hidden state
+- Encoder-Decoder: final hidden state of input network becomes first hidden state of output network
+- Modification: Encoder RNN can be bidirectional (2 RNNs in opposite directions)
+
+Attention Mechanism
+- To improve coherency + use contextual information, use an attention function for "temporal attention"
+  - No longer entirely dependent on its own hidden state
+  - Allows decoder to look back at parts of the input document
+  - Modulated to ensure the model uses different parts of the input when generating output
+  - This generates a "context vector"
+- Can also look at previous hidden states, to avoid repetition
+- Define intra-decoder attention function to look back at previous hidden states of decoder (also generates vector)
+- Now, to generate new element: attention-function context vector + intra-decoder context vector + hidden state
+
+Supervised Learning vs Reinforcement Learning
+- Teacher forcing algorithm (model generates summary while using a reference summary, assigned word-by-word error)
+- However, summaries don't have to match a reference sequence word by word to be correct
+- RL: let model generate summary, use external scorer to compare against ground truth
+
+How to Evaluate Summarization?
+- Using humans to evaluate summaries is long and impractical
+- ROGUE: compare matching sub-phrases in generated summaries against sub-phrases in ground truth reference summaries
+- In practice: high ROGUE score doesn't necessarily mean best summary...use teacher forcing + RL together
+- ROGUE-optimized RL helps recall, and word-level learning supervision helps with coherency
