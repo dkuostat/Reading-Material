@@ -1,6 +1,6 @@
 # Reading Material
 
-## Convenience references
+## Convenience
 
 - Setup multiple Python environments for Jupyter: https://medium.com/towards-data-science/environment-management-with-conda-python-2-3-b9961a8a5097
 
