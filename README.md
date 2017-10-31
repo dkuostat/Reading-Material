@@ -2,7 +2,10 @@
 
 ## Convenience
 
+### Python
+
 - Setup multiple Python environments for Jupyter: https://medium.com/towards-data-science/environment-management-with-conda-python-2-3-b9961a8a5097
+- Special method names: http://www.diveintopython3.net/special-method-names.html
 
 ## Time series
 
