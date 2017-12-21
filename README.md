@@ -8,6 +8,10 @@
 - [Special method names](http://www.diveintopython3.net/special-method-names.html)
 - [Design patterns](https://github.com/kamranahmedse/design-patterns-for-humans)
 
+### Git
+
+- [Transport command graphic](https://i.stack.imgur.com/MgaV9.png)
+
 ## Time series
 
 - [Bayesian TS](http://www.demographic-research.org/volumes/vol29/43/29-43.pdf)
