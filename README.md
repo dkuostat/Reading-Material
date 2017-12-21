@@ -11,6 +11,7 @@
 ## Time series
 
 - [Bayesian TS](http://www.demographic-research.org/volumes/vol29/43/29-43.pdf)
+- [Auto ARIMA Notes](https://www.linkedin.com/pulse/note-autoarima-boxcox-transform-al-yazdani/)
 
 ## Factor analysis
 
