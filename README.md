@@ -10,7 +10,7 @@
 
 ### Git
 
-- [Transport command graphic](https://i.stack.imgur.com/MgaV9.png)
+- [Workflow + Commands](http://blog.osteele.com/2008/05/my-git-workflow/)
 
 ## Time series
 
